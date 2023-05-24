@@ -1,25 +1,32 @@
 * {
-    margin: 0; /*no space in page*/
+    margin: 0;
     padding: 0;
-    box-sizing: border-box; /*images in box*/
+    box-sizing: border-box;
+}
+body {
+    background-color: #a4cbe9;
 }
 hr {
     width: 500px;
     margin: auto;
+    border: 1px solid #000;
 }
 .comicContainer {
     height: 100vh;
-    margin: 50px; /*made smaller*/
+    margin: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    background: #ebf6fe;
+    padding: 15px 0 30px 0;
 }
 .topText {
-    font-size: 40px; /*changed size*/
+    padding-top: 10px;
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
 }
 .section {
     border: solid purple;
-    width: 25%; /*made smaller*/
+    width: 25%;
     height: auto;
     margin: 16px;
 }
@@ -29,25 +36,26 @@ hr {
 }
 .miniText {
     border: solid green;
-    text-align: center; /*centered text*/
-    font-size: 18px; /*changed size*/
-    margin-top: 5px; /*space between img and div txt*/
-    padding: 5px; /*space around text*/
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 5px;
 
 }
 .rowOne {
-    justify-content: center; /*center items*/
+    justify-content: center;
     display: flex;
     height: 40%;
     margin: 1em;
-    margin-bottom: 50px; /*space between rows*/
+    margin-bottom: 50px;
 }
 .rowTwo {
-    justify-content: center; /*center items*/
+    justify-content: center;
     display: flex;
     height: 40%;
     margin: 1em;
 }
 #joke {
-    font-weight: bold; /*Joker*/
+    font-weight: bold;
+    font-style: italic;
 }
